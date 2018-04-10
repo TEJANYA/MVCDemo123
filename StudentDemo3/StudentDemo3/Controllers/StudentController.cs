@@ -26,7 +26,7 @@ namespace StudentDemo3.Controllers
             stu1.name = "Teja";
             stu1.phonenum = 12345;
             return View(stu1);
-        }
+        }   
 
 
     }
