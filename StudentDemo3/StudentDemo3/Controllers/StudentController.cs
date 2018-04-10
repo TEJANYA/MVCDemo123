@@ -18,5 +18,16 @@ namespace StudentDemo3.Controllers
             stu.phonenum = 12345;
             return View(stu);
         }
+
+        public ActionResult Edit()
+        {
+            Student stu1 = new Student();
+            stu1.id = 1;
+            stu1.name = "Teja";
+            stu1.phonenum = 12345;
+            return View(stu1);
+        }
+
+
     }
 }
